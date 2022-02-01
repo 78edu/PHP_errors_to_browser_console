@@ -3,6 +3,7 @@ Adds console.log for your PHP error messages and user debug messages.
 <br>
 No conflicts with XDebug - you can use both (even when this script looks incomplete and primitive).
 But it can show wrong data about dvar_dump( PDO object), seems var_dump works different with var_export in this case.
+Maybe there is some difference in zend vars.
 <br>
 No more mess in your HTML output when you have errors or want to watch some variables.
 ![screenshot](/phpconsolelog.jpg)
